@@ -6,6 +6,14 @@
     --stanford-cardinal: #8C1515;
 }
 
+.odd {
+font-weight: 100;
+}
+
+.even{
+    font-weight: bold;
+}
+
 body {
     color: var(--dark-color);
 }
@@ -58,6 +66,14 @@ pre[class*="language-"] {
 white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
+}
+
+.racing {
+   font-family: 'Racing Sans One', cursive; 
+}
+
+.robot {
+    font-family: 'Roboto', sans-serif;
 }
 
 main>.container {
